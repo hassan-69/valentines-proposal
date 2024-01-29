@@ -1,0 +1,36 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Your Valentine's Day Proposal</title>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.0.3"></script>
+</head>
+<body>
+
+    <div id="proposal-container">
+        <div id="typing-message" class="new-message">
+            <p id="text-message"></p>
+            <img src="images/blushing-emoji.png" alt="Blushing Emoji" class="blushing-emoji" id="blushing-emoji">
+        </div>
+
+        <button id="continue-btn" onclick="startNewTypingAnimation()">Continue</button>
+
+        <div id="popup-box" class="popup-box">
+            <img src="images/blushing-emoji.png" alt="Blushing Emoji" class="blinking-emoji" id="blinking-emoji">
+            <p id="valentine-message"></p>
+            <button id="yes-btn" onclick="showResponse('Yes')">Yes</button>
+            <button id="no-btn" onclick="showResponse('No')">Yes, you've no choice!</button>
+        </div>
+    </div>
+
+    <video id="proposal-video" style="display: none;" controls autoplay>
+        <source src="videos/CollageFinal.mov" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
