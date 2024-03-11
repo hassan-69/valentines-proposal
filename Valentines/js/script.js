@@ -10,9 +10,11 @@ document.addEventListener('DOMContentLoaded', function () {
     const proposalVideo = document.getElementById('proposal-video');
 
     const messages = [
-        "Hey Pookie, 🌹...",
+        "Hey Rowan💕,...",
         "Here's something I wanted to say to you...",
-        "Wait for it....",
+        "I know that I sometimes make you feel bad and unsettled, but that doesn't change the fact that I love you. it's not supposed to be like this.",
+        "It's supposed to be better, and I'm really sorry about it. I am trying my best to be with you.",
+        "Please be sure that I love you and I can do anything for you.",
         "Hold on..."
     ];
 
@@ -67,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function () {
         popupBox.style.display = 'block';
         blushingEmoji.style.animation = 'blink 1s infinite';
         setTimeout(() => {
-            valentineMessage.innerHTML = "Will you be my Valentine?";
+            valentineMessage.innerHTML = "will you hold on to me forever?";
             yesButton.style.opacity = 1;
             noButton.style.opacity = 1;
         }, 3000);
